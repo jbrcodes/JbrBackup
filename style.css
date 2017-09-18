@@ -1,0 +1,124 @@
+
+.error {
+    color: red;
+}
+
+.nav-tab-wrapper {
+    margin-top: 1rem;
+}
+
+.doku {
+    font-size: 1rem;
+}
+
+.doku * {
+     font-family: "Times-Roman", serif;   
+}
+
+.doku p {
+    font-size: 1rem;
+
+}
+
+/* === tabs! === */
+
+/*
+.jbrbu-tab-group {
+    
+}
+
+ul.jbrbu-tab-tabs {
+    list-style-type: none;
+    margin: 2em 0 0 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+ul.jbrbu-tab-tabs li {
+    display: inline-block;
+    border: 1px solid #aaa;
+    margin: 0;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+ul.jbrbu-tab-tabs li:hover {
+   background-color: #bbb; 
+}
+
+ul.jbrbu-tab-tabs li.selected {
+    font-weight: bold;
+    background-color: #ddd;
+}
+
+.jbrbu-tab-card {
+    margin-top: 2em;
+    display: none;
+}
+*/
+
+/* === endtabs! == */
+
+.jbr-bu h2 {
+    margin-top: 2em;
+    border-bottom: 1px solid #aaa;
+}
+
+.jbr-bu h3 {
+
+}
+
+.jbr-bu dt {
+    font-weight: bold;
+}
+
+.jbr-bu-flash-response {
+    display: none; 
+    margin: 1em 0;
+    padding: 10px; 
+    background-color: #dff0d8; 
+    border-radius: 4px; 
+    color:#3c763d; 
+    border: 1px solid #d6e9c6;
+}
+
+
+/* WP gets carried away with vertical space in forms!! */
+.jbr-bu .form-table th,
+.jbr-bu .form-table td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* General output window */
+.jbr-bu-output {
+    height:100px; 
+    padding:5px; 
+    border:1px solid #aaa; 
+    background-color:#fff; 
+    overflow:auto; 
+    margin:1em 0;
+}
+
+table.jbr-bu-foo {
+    width: 100%;
+}
+
+table.jbr-bu-foo td {
+    width: 50%;
+    vertical-align: top;
+}
+
+table.jbr-bu-foo td:last-child {
+    padding-left: 20px;
+}
+
+table.jbr-bu-foo td > p {
+    margin-top: 0;
+}
+
+table.jbr-bu-dump th {
+    text-align: right;
+    padding-right: 10px;
+    width: 200px;
+}
